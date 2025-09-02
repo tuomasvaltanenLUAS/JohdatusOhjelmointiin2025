@@ -3,3 +3,10 @@
 # voi ketjuttaa useamman peräkkäin jos haluaa
 print("Tässä on jotain tekstiä\n\nTämä tulee toiselle riville")
 print()
+
+# \t sarkain (englanniksi tab), muista käyttää useampaa
+# sarkainta jos jokin sanoista menee pitkäksi yli aiemman sarkaimen
+# (tässä tapauksessa "Päivämäärä" jne.)
+print("Lasku:\t\t350 €")
+print("Korko:\t\t5%")
+print("Päivämäärä:\t2.9.2025")
