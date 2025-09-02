@@ -16,6 +16,6 @@ print(f"Päiviä jäljellä tätä vuotta: {days} kpl")
 # esim. jos lainataan kirjastosta kirja, mikä on palautuspäivä
 # kolmen viikon päästä?
 today = date.today()
-today = today + timedelta(21)
+expiration = today + timedelta(21)
 
-print(f"Palautuspäivä kolmen viikon päästä on: {today}")
+print(f"Palautuspäivä kolmen viikon päästä on: {expiration}")
