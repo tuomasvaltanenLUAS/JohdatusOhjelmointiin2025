@@ -4,6 +4,10 @@
 print("Tässä on jotain tekstiä\n\nTämä tulee toiselle riville")
 print()
 
+# joskus Windowsissa pitää \n lisäksi myös käyttää \r (carriage return)
+# jotta rivi vaihtuu, tämä tosin riippuu ohjelmointikielestä myös
+
+
 # \t sarkain (englanniksi tab), muista käyttää useampaa
 # sarkainta jos jokin sanoista menee pitkäksi yli aiemman sarkaimen
 # (tässä tapauksessa "Päivämäärä" jne.)
