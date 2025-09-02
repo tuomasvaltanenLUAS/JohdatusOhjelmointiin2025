@@ -23,4 +23,7 @@ total = (savings + salary) * increase
 
 # VAIHE 3: tulostetaan lopputulos mukavassa muodossa
 # loppukäyttäjälle / asiakkaalle
+# teknisesti on mahdollista tehdä aaltosulkeiden sisällä myös laskutoimituksia
+# esim. {total * increase}, mutta lähtökohtaisesti nämä ratkaisu ovat
+# aika vaikeaselkoisia, koska koodi ahtaa kaiken logiikan yhteen koodiriviin
 print(f"Uusi summa korkojen jälkeen: {total} €")
