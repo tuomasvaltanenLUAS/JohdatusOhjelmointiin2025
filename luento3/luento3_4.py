@@ -16,7 +16,7 @@ if age >= 30:
 if age == 30:
     print("Olet TASAN 30v")
 
-# negaatio, eli == täysi vastakohta
+# negaatio, eli ==:n täysi vastakohta
 # eli "onko ikä jotain MUUTA kuin TASAN 30?"
 if age != 30:
     print("Olet jonkin muun ikäinen kuin tasan 30v!")
