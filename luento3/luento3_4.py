@@ -7,6 +7,8 @@ if age < 30:
     print("Olet alle 30v")
 
 # onko age suurempi kuin 30
+# tyypillisesti käytetään vertailuja
+# jossa myös tasaluvut huomioidaan
 if age >= 30:
     print("Olet 30v tai yli")
 
@@ -14,6 +16,7 @@ if age >= 30:
 if age == 30:
     print("Olet TASAN 30v")
 
-# onko ikä jotain muuta kuin tasan 30?
+# negaatio, eli == täysi vastakohta
+# eli "onko ikä jotain MUUTA kuin TASAN 30?"
 if age != 30:
     print("Olet jonkin muun ikäinen kuin tasan 30v!")
