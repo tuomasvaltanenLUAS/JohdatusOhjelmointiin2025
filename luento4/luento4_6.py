@@ -10,3 +10,36 @@
 # ilmoita käyttäjälle: "Vääränlainen operaatio"
 
 # Tulosta lopputulos pyöristettynä yhteen desimaaliin.
+
+# kysytään muuttujat
+number1 = input("Syötä ensimmäinen numero:\n")
+number1 = float(number1)
+number2 = input("Syötä toinen numero:\n")
+number2 = float(number2)
+operation = input("Mikä laskutoimitus (+, -, * vai /)?\n")
+
+# alustetaan muuttuja joka pitää kirjaa lopputuloksesta
+result = 0
+
+# vain yksi laskutoimitus voi kerrallaan käynnistyä
+if operation == "+":
+    result = number1 + number2
+elif operation == "-":
+    result = number1 - number2
+elif operation == "*":
+    result = number1 * number2
+elif operation == "/":
+    # HUOM! nollalla ei saa jakaa, tarkistetaan
+    if number2 == 0:
+        print("Nollalla ei voi jakaa!")
+    else:
+        result = number1 / number2
+else:
+    print("Vääränlainen operaatio! (Syötä: +, -, * tai /)")
+
+
+# pyöristetään ja tulostetaan
+# tätä voi vielä jatkokehittää, ettei
+# ohjelma tulosta mitään jos yritettiin jakaa nollalla
+result = round(result, 1)
+print(f"Tulos: {result}")
