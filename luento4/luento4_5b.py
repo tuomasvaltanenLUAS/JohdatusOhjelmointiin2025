@@ -12,8 +12,19 @@
 # kellonaikaa (esim. datetime-moduuli). Jos käyttäjä valitsi automaattisen kellonajan,
 # ilmoita käyttäjälle "Valitaan tunti automaattisesti".
 
+from datetime import datetime
+
 # kysytään käyttäjältä tämänhetkinen tunti => integeriksi
 hour = input("Syötä valitsemasi tunti:\n")
+
+# JOS käyttäjä syötti tyhjän tekstin, korvataan
+# tuntitieto datetime -moduulin avulla
+if hour == "":
+    timestamp = datetime.now()
+    hour = timestamp.hour
+    print(f"Tyhjä teksti! Valitaan tunti automaattisesti: {hour}")
+
+# oli hour mikä tahansa, muutetaan se vihdoin kokonaisuluvuksi
 hour = int(hour)
 
 # tehdään ehtolauseet jokaiselle
