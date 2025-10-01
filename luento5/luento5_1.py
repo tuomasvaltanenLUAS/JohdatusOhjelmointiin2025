@@ -1,2 +1,4 @@
-# luento 5, merkkijonojen käsittely ja virheenhallinta
-print("Tervetuloa!")
+# hipsuja ja lainausmerkkejä yhdistelemällä voidaan saada
+# myös kirjaimellisesti lainausmerkit tekstiin
+name = 'Matti "Mahtikoodari" Meikäläinen'
+print(name)
