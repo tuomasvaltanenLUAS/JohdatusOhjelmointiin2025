@@ -7,6 +7,8 @@ print(f"Tekstissä merkkejä: {text_length} kpl")
 
 # text_length on ihan vain kokonaislukumuuttuja (int)
 # voidaan käyttää miten halutaan
+# myös kätevä jos pitää tarkistaa onko annettu salasana tarpeeksi pitkä
+# tai onko annettu teksti lomakkeessa alle 200 merkkiä jne jne
 if text_length > 30:
     print("Pitkä lause!")
 
@@ -19,7 +21,9 @@ else:
 # lasketaan pienet a-kirjaimet tekstistä
 # HUOM! ohjelmoinnissa pienet ja isot kirjaimet ovat eri kirjaimia
 
-# LISÄTÄÄN MYÖHEMMIN: lisätään myös ominaisuus jossa A + a tulee samaan laskuun
+# jos haluat laskea sekä pienet että isot a:t, kokeile
+# text = text.lower()
+# text.count("a")
 a_letters = text.count("a")
 print(f"Tekstissä a-kirjaimia: {a_letters} kpl")
 
