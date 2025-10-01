@@ -15,3 +15,17 @@ if text_length > 30:
     print(shortened)
 else:
     print("Lyhyt lause...")
+
+# lasketaan pienet a-kirjaimet tekstistä
+# HUOM! ohjelmoinnissa pienet ja isot kirjaimet ovat eri kirjaimia
+
+# LISÄTÄÄN MYÖHEMMIN: lisätään myös ominaisuus jossa A + a tulee samaan laskuun
+a_letters = text.count("a")
+print(f"Tekstissä a-kirjaimia: {a_letters} kpl")
+
+# erikoistapaus, joskus on tarve tarkistaa onko teksti tyhjä
+# esim. käyttäjä syötti tyhjän tekstin
+if text_length == 0:
+    print("Teksti on tyhjä!")
+else:
+    print("Teksti ei ole tyhjä...")
