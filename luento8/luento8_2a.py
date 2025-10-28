@@ -9,3 +9,4 @@ products = ["Pölynimuri", "Kahvinkeitin", "Jääkaappi",
 # viimeinen kierros sisältää viimeisen tuotteen
 for item in products:
     print(item)
+
