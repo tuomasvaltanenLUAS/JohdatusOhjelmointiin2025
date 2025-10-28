@@ -2,6 +2,10 @@
 weekdays = ("Maanantai", "Tiistai", "Keskiviikko", "Torstai",
             "Perjantai", "Lauantai", "Sunnuntai")
 
+# HUOM! Tuplea ei voi päivittää lennosta, vaan se pitää tehdä kokonaan uusiksi
+# jos jotain pitää muuttaa
+# weekdays[2] = "Enstai"
+
 # kysytään käyttäjältä viikonpäivän indeksi
 # jotta saadaan täsmäämään käyttäjän numero kokoelman kanssa => -1
 choice = input("Kuinka mones viikonpäivä?\n")
