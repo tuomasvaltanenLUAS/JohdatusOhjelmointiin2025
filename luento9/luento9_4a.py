@@ -22,8 +22,8 @@ hotel_2 = {
 
 # asetetaan molemmat hotellit samaan listaan
 hotels = [hotel_1, hotel_2]
-# print(hotels)
-# print()
+print(hotels)
+print()
 
 # ['name'] => str(16) "Snow Line Hotels"
 # ['rating'] => float(4.3)
@@ -40,9 +40,13 @@ hotels = [hotel_1, hotel_2]
 # var_dump auttaa tutkimaan datan yksityiskohtia helpommin
 # vd.var_dump(hotels)
 
-# first_hotel = hotels[0]
-# vd.var_dump(first_hotel)
+# voit myös tulostaa yhden hotellin tiedot
+# joskus helpompi hahmottaa tällä tavalla mitä silmukan
+# sisällä pitää koodata!
+first_hotel = hotels[0]
+vd.var_dump(first_hotel)
+print()
 
-# silmukoidaan hotellidata läpi
+# silmukoidaan hotellidata läpi ja tulostetaan jokaisen hotellin nimi
 for hotel in hotels:
     print(hotel['name'])
