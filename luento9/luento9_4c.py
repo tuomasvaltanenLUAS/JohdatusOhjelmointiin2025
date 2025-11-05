@@ -42,16 +42,11 @@ hotels = [hotel_1, hotel_2]
 for hotel in hotels:
     print(hotel['name'])
 
-    # yhdessä hotellissa on aina x-määrä palveluita (lista)
-    # joten tarvitaan toinen silmukka
-    # for service in hotel['services']:
-    #     print(service)
+    # myös ylimääräistä lgoiikkaa voidaan tehdä ehtolauseilla
+    if "sauna" in hotel['services']:
+        print("Hotellissa on sauna.")
 
-    # lähtökohtaisesti jos datassa on vain simnppeli tekstilista
-    # voidaan välttää koko for-silmukka käyttämällä join()-funktiota
-    # eli yhdistetään kaikkien palveluiden nimet jollain merkillä (esim. rivinvaihto)
-    # lopputulos on sama kuin kuin ylläolevassa for-silmukassa (kommentoitu pois)
-    services = "\n".join(hotel['services'])
-    print(services)
+    if "restaurant" in hotel['services']:
+        print("Hotellissa on ravintola.")
 
     print()

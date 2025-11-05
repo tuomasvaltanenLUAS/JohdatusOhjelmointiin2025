@@ -38,20 +38,21 @@ hotels = [hotel_1, hotel_2]
 #    [4] => str(7) "safaris"
 # ['price_level'] => int(4)
 
+# alustetaan tyhjä lista, jonka ideana on myöhemmin
+# silmukassa kerätä kaikkien niiden hotellien nimet, joissa on sauna
+restaurant_hotels = []
+
 # silmukoidaan hotellidata läpi
 for hotel in hotels:
     print(hotel['name'])
 
-    # yhdessä hotellissa on aina x-määrä palveluita (lista)
-    # joten tarvitaan toinen silmukka
-    # for service in hotel['services']:
-    #     print(service)
-
-    # lähtökohtaisesti jos datassa on vain simnppeli tekstilista
-    # voidaan välttää koko for-silmukka käyttämällä join()-funktiota
-    # eli yhdistetään kaikkien palveluiden nimet jollain merkillä (esim. rivinvaihto)
-    # lopputulos on sama kuin kuin ylläolevassa for-silmukassa (kommentoitu pois)
-    services = "\n".join(hotel['services'])
-    print(services)
+    # suodtatetaan vain ne hotellit, joissa on ravintola
+    if "restaurant" in hotel['services']:
+        restaurant_hotels.append(hotel['name'])
 
     print()
+
+# nyt kun kaikki hotellit on käsitelty, voidaan tarkastella missä hotelleissa
+# on ravintola, tulostetaan testimielessä lista suoraan
+print()
+print(restaurant_hotels)
