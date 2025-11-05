@@ -5,6 +5,8 @@ movies = ["Jurassic Park", "Interstellar", "Forrest Gump"]
 # kaikki verkkokaupan tuotteet ovat omina listoinaan tässä päälistassa
 products = [books, movies]
 
+# kannattaa kokeilla tätä myös Python Tutorissa!
+
 # silmukoidaan kategoriat läpi
 for category in products:
 
