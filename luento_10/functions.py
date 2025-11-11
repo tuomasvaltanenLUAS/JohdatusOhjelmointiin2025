@@ -68,3 +68,19 @@ def check_palindrome(text):
         return False
 
 
+# apufunktio, joka tarkistaa onko syötetty
+# tilauskoodi oikeassa formaatissa
+# oikea formaatti: 10 merkkiä pitkä, ensimmäinen merkki on T
+# ns. validointifunktio, joka tarkistaa oikean muodon
+def check_order(code):
+    result = True
+
+    # jos koodi EI OLE tasan 10 merkkiä => False
+    if len(code) != 10:
+        result = False
+
+    if code[0] != "T":
+        result = False
+
+    return result
+
