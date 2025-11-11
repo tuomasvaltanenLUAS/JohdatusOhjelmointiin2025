@@ -41,13 +41,30 @@ def get_even_number_text(number):
         return "Pariton"
 
 
-# apufunktio, joka kääntää tekstin toisinpäin
-def reverse_string(text):
-    return text[::-1]
-
-
 # apufunktio, joka laskee tunneista
 # päivien lukumäärän
 def hours_to_days(hours):
     result = hours // 24
     return result
+
+
+# apufunktio, joka kääntää tekstin toisinpäin
+def reverse_string(text):
+    return text[::-1]
+
+
+# apufunktio, joka tarkistaa onko
+# annettu teksti palindromi vai ei
+def check_palindrome(text):
+    # kutsutaan toista omaa funktiota
+    reversed_text = reverse_string(text)
+
+    # tarkistetaan onko käyttäjän teksti palindromi
+    # ja palautetaan tilanteesta riippuen Boolean
+    # (True tai False)
+    if text == reversed_text:
+        return True
+    else:
+        return False
+
+
