@@ -1,0 +1,18 @@
+# functions.py, kaikki omat funktiot
+# tänne, ikään kuin "työkalupakki", jossa
+# kaikki omat funktiot ovat valmiina
+# käytettäväksi muissa ohjelmissa
+
+# määritellään oma funktion nimeltä
+# show_text()
+
+# HUOM: oma funktio ei tee koodissa mitään
+# ennen kuin sitä kutsutaan/käytetään jossakin'
+
+# funktion määritelmä tarkoittaa sitä, että:
+# "mitä koodin tulisi tehdä, jos jokin kutsuisi tätä funktiota"
+def show_text():
+    print("Tervetuloa ohjelman käyttäjäksi!")
+    print("--------------------------------")
+    print("Seuraa ohjeita!")
+    print()
