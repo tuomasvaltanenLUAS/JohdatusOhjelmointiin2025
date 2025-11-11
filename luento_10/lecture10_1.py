@@ -1,2 +1,8 @@
-# Johdatus ohjelmointiin, luento 10, 11.11.2025, funktiot
-print("Tervetuloa!")
+# muu koodi, esim. varsinainen ohjelma
+
+# ks. functions.py
+from functions import *
+
+print("ALOITUS!")
+show_text()
+print("VALMIS!")
