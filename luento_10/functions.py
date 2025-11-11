@@ -23,3 +23,10 @@ def show_text():
 def combine_text(first, last, age):
     print(f"Tervetuloa: {first} {last}!")
     print(f"Ikäsi on: {age} vuotta.")
+
+
+# funktio joka palauttaa return-komennolla tietoa
+# takaisin palautusarvona
+def get_year():
+    year = 2025
+    return year
