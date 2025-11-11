@@ -44,3 +44,10 @@ def get_even_number_text(number):
 # apufunktio, joka kääntää tekstin toisinpäin
 def reverse_string(text):
     return text[::-1]
+
+
+# apufunktio, joka laskee tunneista
+# päivien lukumäärän
+def hours_to_days(hours):
+    result = hours // 24
+    return result
