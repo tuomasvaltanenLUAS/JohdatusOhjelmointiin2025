@@ -91,3 +91,13 @@ def show_list(data):
     # tulostetaan sisältö silmukalla
     for word in data:
         print(word)
+
+
+# apufunktio, joka laskee listan keskiarvon
+# huolimatta siitä mitä siinä on
+def get_list_average(numbers):
+    total = sum(numbers)
+    amount = len(numbers)
+    result = total / amount
+    result = round(result, 2)
+    return result
