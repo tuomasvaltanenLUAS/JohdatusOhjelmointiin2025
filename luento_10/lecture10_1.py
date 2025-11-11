@@ -5,4 +5,6 @@ from functions import *
 
 print("ALOITUS!")
 show_text()
-print("VALMIS!")
+
+# kokeillaan toista funktiota joka tehtiin
+combine_text("Herra", "Hakkarainen", 42)
