@@ -39,3 +39,8 @@ def get_even_number_text(number):
         return "Parillinen"
     else:
         return "Pariton"
+
+
+# apufunktio, joka kääntää tekstin toisinpäin
+def reverse_string(text):
+    return text[::-1]
