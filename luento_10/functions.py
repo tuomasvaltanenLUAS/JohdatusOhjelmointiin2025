@@ -79,8 +79,15 @@ def check_order(code):
     if len(code) != 10:
         result = False
 
+    # jos ensimmäinen merkki EI OLE "T" => False
     if code[0] != "T":
         result = False
 
     return result
 
+
+# apufunktio, joka tulostaa listan sisällön allekkain
+def show_list(data):
+    # tulostetaan sisältö silmukalla
+    for word in data:
+        print(word)
