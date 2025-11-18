@@ -21,3 +21,6 @@ for city in weather:
 
     # tässä sitten ehtolauseita, jotka pitää kirjaa suurimmasta
     # ja pienimmästä tuulesta, ks. tehtävänannon vinkit ym. ym.
+
+    # HUOM! voit käsitellä yhdellä for-silmukalla sekä heikoimman
+    # että suurimman tuulen, ei tarvitse erillistä for-lausetta molemmille!
