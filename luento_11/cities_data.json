@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Rovaniemi",
+    "population": 62933,
+    "county": "Lappi"
+  },
+  {
+    "name": "Oulu",
+    "population": 199526,
+    "county": "Pohjois-Pohjanmaa"
+  },
+  {
+    "name": "Helsinki",
+    "population": 631695,
+    "county": "Uusimaa"
+  },
+  {
+    "name": "Tampere",
+    "population": 260646,
+    "county": "Pirkanmaa"
+  },
+  {
+    "name": "Jyv\u00e4skyl\u00e4",
+    "population": 149263,
+    "county": "Keski-Suomi"
+  }
+]
