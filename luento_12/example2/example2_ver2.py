@@ -68,6 +68,7 @@ largest_gdp = max(all_gdps)
 months_left_this_year = days_left_year / 30
 months_left_this_year = int(months_left_this_year)
 
+
 if months_left_this_year == 0:
     months_left_this_year = 1
 
