@@ -1,3 +1,15 @@
+# KOODIN VAATIMUKSET:
+#
+# Tässä tiedostossa on ohjelma, joka käy läpi erillissä listoissa olevaa tekstidataa.
+# Tämän jälkeen koodi prosessoi jokaisen listan vuorollaan läpi teksti tekstiltä
+# => jos tekstissä ei ole *-merkkiä, annetaan listalle viisi pistettä
+# => jos tekstissä on * merkki => vähennetään listalta viisi pistettä
+#
+# Koodi antaa lopuksi jokaisesta listasta sanallisen arvion kokonaispisteistä:
+# => jos pisteitä oli 0-19, tulostetaan Low
+# => jos pisteitä oli 20-29, tulostetaan Middle
+# => jos pisteitä oli 30-39, tulostetaan High
+
 # text submission grading code
 # * is a bad char -> penalty, otherwise add points
 addition = 5
